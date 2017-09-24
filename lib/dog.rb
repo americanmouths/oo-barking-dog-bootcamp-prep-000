@@ -10,6 +10,6 @@ class Dog
     @bark = dog_bark
   end
   def bark
-    "#{@name}".puts("woof!")
+    puts "woof!"
   end
 end
