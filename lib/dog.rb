@@ -5,5 +5,11 @@ class Dog
   end
   def name
     "#{@name}".strip
-end
+  end
+  def bark=(dog_bark)
+    @bark = dog_bark
+  end
+  def bark
+    @bark
+  end
 end
